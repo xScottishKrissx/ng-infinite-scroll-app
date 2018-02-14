@@ -1,0 +1,27 @@
+**Known Issues / To-Do / Planned
+  *Main Goals
+    *Create Input form for infinite scroll
+    *Create Navigation
+    *Create Infinite Scroll
+    *Hook up to database
+    *Achieve same appearance as non-angular version
+    *Allow user to update and delete posts
+
+  *Bonus Goals
+    *Have multiple pages as seen in mock-ups
+    *Implement User Account Functionality
+    *Restrict post update and delete to within a certain time limit
+      (60 seconds for example)
+    *Achieve same appearance as mock up
+
+
+  /*Startup procedure
+  1 - Run Angular Server -cmd line from root
+      -ng serve --open
+  2 - Run Sass - cmd line at src/app/nav folder
+      sass --watch nav.component.scss:nav.component.css
+********************************************************************************
+Day 1 - 14/02/2018
+  *Added Bootstrap Functionality
+  *Added Sass Functionality
+  *Added basic navigation bar

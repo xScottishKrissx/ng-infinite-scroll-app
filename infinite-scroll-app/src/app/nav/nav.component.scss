@@ -1,0 +1,30 @@
+//sass --watch nav.component.scss:nav.component.css
+
+/*# sourceMappingURL=nav.component.scss.map */
+
+a:active,a:link,a{
+  color:#fff !important;
+  text-decoration: none;
+}
+
+.mainNav{
+  background-color: #FE7674;
+
+  .navbar{padding: 0;}
+  .navbar-brand{
+    font-size: 2.5rem;
+    margin-right: 5rem;
+    padding-left: 1rem;
+  }
+  #nav-link-section{
+    background-color: red;
+    height: 100%;
+
+  }
+  .nav-link{//padding: 1rem;
+  }
+  .nav-link:hover{
+    background-color: white;
+    color:#FE7674 !important;
+  }
+}

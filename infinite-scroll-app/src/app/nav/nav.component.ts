@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../app.component';
+import {NavBar } from '../navigation';
+
 
 @Component({
   selector: 'app-nav',

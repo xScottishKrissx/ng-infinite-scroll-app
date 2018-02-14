@@ -1,0 +1,21 @@
+/*# sourceMappingURL=nav.component.scss.map */
+a:active, a:link, a {
+  color: #fff !important;
+  text-decoration: none; }
+
+.mainNav {
+  background-color: #FE7674; }
+  .mainNav .navbar {
+    padding: 0; }
+  .mainNav .navbar-brand {
+    font-size: 2.5rem;
+    margin-right: 5rem;
+    padding-left: 1rem; }
+  .mainNav #nav-link-section {
+    background-color: red;
+    height: 100%; }
+  .mainNav .nav-link:hover {
+    background-color: white;
+    color: #FE7674 !important; }
+
+/*# sourceMappingURL=nav.component.css.map */
