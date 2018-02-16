@@ -1,0 +1,16 @@
+.formContainer {
+  background-color: #FE7674;
+  color: white;
+  margin-top: 1rem;
+  position: fixed;
+  width: 29vw; }
+  .formContainer #name {
+    width: 100%;
+    max-width: 27vw; }
+  .formContainer textarea {
+    max-width: 27vw; }
+  .formContainer form {
+    text-align: center;
+    padding-top: 0.5rem; }
+
+/*# sourceMappingURL=sidebar.component.css.map */

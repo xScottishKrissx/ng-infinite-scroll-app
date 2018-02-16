@@ -1,14 +1,17 @@
 //sass --watch nav.component.scss:nav.component.css
 
 /*# sourceMappingURL=nav.component.scss.map */
-
+body{
+  line-height: unset !important;
+}
 a:active,a:link,a{
-  color:#fff !important;
+  //color:#fff !important;
   text-decoration: none;
 }
 
 .mainNav{
   background-color: #FE7674;
+  margin: 0;
 
   .navbar{padding: 0;}
   .navbar-brand{
@@ -16,15 +19,47 @@ a:active,a:link,a{
     margin-right: 5rem;
     padding-left: 1rem;
   }
-  #nav-link-section{
-    background-color: red;
-    height: 100%;
+    nav{
+      width: 100%;
+    }
+      #nav-link-section{
+        height: 100%;
 
-  }
-  .nav-link{//padding: 1rem;
-  }
-  .nav-link:hover{
-    background-color: white;
-    color:#FE7674 !important;
-  }
+        ul{
+          color:#fff !important;
+          height: 100%;
+
+          li{
+            min-width: 6rem;
+            padding-top: 1rem;
+            text-align: center;
+
+
+            &:hover{
+                background-color: white;
+            }
+
+            &:hover a{
+              color: #FE7674 ;
+            }
+
+          }
+        }
+
+        form{
+          margin-left: 1rem;
+          width: 100%;
+
+          input{
+            border:0;
+            border-radius: 0;
+            height: 4.1rem;
+            width: 99%;
+
+              &:focus{box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0) !important;}
+          }
+        }
+      }
+
+
 }

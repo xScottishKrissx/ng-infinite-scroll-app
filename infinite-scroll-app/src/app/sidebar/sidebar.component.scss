@@ -1,0 +1,14 @@
+.formContainer{
+  background-color: #FE7674;
+  color: white;
+  margin-top: 1rem;
+  position: fixed;
+  width: 29vw;
+
+      #name{ width: 100%; max-width: 27vw;}
+      textarea{max-width: 27vw;}
+      form{
+        text-align: center;
+        padding-top: 0.5rem;
+      }
+}

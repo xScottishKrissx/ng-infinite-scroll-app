@@ -21,6 +21,11 @@
   2 - Run Sass - cmd line at src/app/nav folder
       sass --watch nav.component.scss:nav.component.css
 ********************************************************************************
+Day 2 - 16/02/2018
+  *Finished Nav Bar appearance
+  *Added Sidebar
+  *Added Infinite Scroll Section
+
 Day 1 - 14/02/2018
   *Added Bootstrap Functionality
   *Added Sass Functionality

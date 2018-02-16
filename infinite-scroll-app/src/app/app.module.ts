@@ -8,6 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { InfiniteScrollComponent } from './infinite-scroll/infinite-scroll.component';
 
+import {HttpModule} from '@angular/http';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { InfiniteScrollComponent } from './infinite-scroll/infinite-scroll.compo
   ],
   imports: [
     BrowserModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
